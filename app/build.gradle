@@ -66,7 +66,7 @@ dependencies {
     implementation 'atos.virtual.care:vcs-realtime-sdk:0.6.1'
 
     // WebRTC
-    implementation 'atos.virtual.care:libwebrtc:M90'
+    implementation 'atos.virtual.care:libwebrtc:M90.0.1'
 
     implementation 'com.github.ATOS-VIRTUAL-CARE.apollo-android:apollo-runtime:3.0.0-vcs01'
 
