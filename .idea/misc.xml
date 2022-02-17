@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/layout/dialog_signin.xml" value="0.1" />
         <entry key="app/src/main/res/layout/remote_surface_view.xml" value="0.31435897435897436" />
         <entry key="app/src/main/res/layout/room_activity.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/settings_layout.xml" value="0.25925925925925924" />
         <entry key="app/src/main/res/layout/sign_in_activity.xml" value="0.31927083333333334" />
         <entry key="app/src/main/res/layout/sign_in_dialog.xml" value="0.24444444444444444" />
         <entry key="app/src/main/res/layout/sign_in_fragment.xml" value="0.25" />

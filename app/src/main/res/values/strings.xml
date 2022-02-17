@@ -64,6 +64,7 @@
     <string name="password_input_desc">Enter password</string>
     <string name="auto_gain_control_desc">Enable or disable auto gain control</string>
     <string name="default_hd_desc">Enable or disable default HD</string>
+    <string name="scale_down_video_resolution_desc">Enable or disable scaling down video resolution</string>
     <string name="hd_video_desc">Enable or disable HD video</string>
     <string name="monitor_qos_desc">Enable or disable QoS monitoring</string>
     <string name="delay_local_stream_desc">Enable or disable delay of local stream</string>
@@ -81,6 +82,8 @@
     <string name="auto_gain_control_summary">Enable or disable Automatic Gain Control on the audio track</string>
     <string name="default_hd_video_title">Default HD Video</string>
     <string name="default_hd_video_summary">Share local video in HD quality</string>
+    <string name="scale_down_video_resolution_title">Scale down video resolution</string>
+    <string name="scale_down_video_resolution_summary">Enable or disable scaling down video resolution</string>
 
     <string name="session_options_title">Session options</string>
     <string name="hd_video_title">HD Video</string>

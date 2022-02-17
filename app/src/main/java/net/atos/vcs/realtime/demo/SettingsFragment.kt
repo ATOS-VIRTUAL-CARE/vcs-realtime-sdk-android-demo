@@ -86,6 +86,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
                             resources.getText(R.string.password_title) -> { R.string.password_desc }
                             resources.getText(R.string.auto_gain_control_title) -> { R.string.auto_gain_control_desc }
                             resources.getText(R.string.default_hd_video_title) -> { R.string.default_hd_desc }
+                            resources.getText(R.string.scale_down_video_resolution_title) -> { R.string.scale_down_video_resolution_desc }
                             resources.getText(R.string.hd_video_title) -> { R.string.hd_video_desc }
                             resources.getText(R.string.monitor_qos_title) -> { R.string.monitor_qos_desc }
                             resources.getText(R.string.delay_local_stream_title) -> { R.string.delay_local_stream_desc }

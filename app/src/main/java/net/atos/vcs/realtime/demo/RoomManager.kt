@@ -152,6 +152,7 @@ class RoomManager(private val context: Context,
         override fun onRoomInitialized(room: Room) {
             this@RoomManager.room = room
             joinInProgress = false
+            room.scaleDownVideo(RealtimeSettings.scaleDownVideoResolution(), null, null)
             ActiveCallService.startService(context, room.name() ?: "")
             sendRoomEvent(RoomEvent.roomJoined(
                 roomName = room.name() ?: "",

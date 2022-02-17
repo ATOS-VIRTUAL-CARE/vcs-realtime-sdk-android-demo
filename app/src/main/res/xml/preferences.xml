@@ -37,6 +37,12 @@
             android:summary="@string/default_hd_video_summary"
             android:title="@string/default_hd_video_title" />
 
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="scale_down_video_resolution"
+            android:summary="@string/scale_down_video_resolution_summary"
+            android:title="@string/scale_down_video_resolution_title" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

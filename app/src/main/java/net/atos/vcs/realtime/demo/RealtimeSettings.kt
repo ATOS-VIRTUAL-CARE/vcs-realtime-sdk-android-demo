@@ -39,6 +39,10 @@ object RealtimeSettings {
         return sharedBooleanPreference("default_hd_video", true)
     }
 
+    fun scaleDownVideoResolution(): Boolean {
+        return sharedBooleanPreference("scale_down_video_resolution", false)
+    }
+
     object Options {
         fun hdVideo(): Boolean {
             return sharedBooleanPreference("hd_video", true)
