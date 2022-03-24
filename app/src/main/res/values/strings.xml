@@ -46,9 +46,12 @@
 
     <!--- Call Screen descriptors -->
     <string name="switch_camera_desc">Switch camera</string>
-    <string name="camera_desc">Enable or disable video</string>
-    <string name="speaker_desc">Enable or disable speaker</string>
-    <string name="mute_desc">Enable or disable mute</string>
+    <string name="video_desc">Video</string>
+    <string name="video_off_desc">Video off</string>
+    <string name="speaker_desc">Speaker</string>
+    <string name="speaker_off_desc">Speaker off</string>
+    <string name="microphone_desc">Microphone</string>
+    <string name="microphone_off_desc">Microphone off</string>
     <string name="leave_room_desc">Leave room</string>
     <string name="local_video_desc">Local video view</string>
     <string name="remote_video_desc">Remote video view</string>

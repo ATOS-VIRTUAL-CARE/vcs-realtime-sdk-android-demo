@@ -171,8 +171,10 @@ class RoomActivity : AppCompatActivity() {
         viewModel.muted.observe(this) { muted ->
             if (muted) {
                 binding.microphoneButton.setImageResource(R.drawable.action_microphone_off)
+                binding.microphoneButton.contentDescription = getText(R.string.microphone_off_desc).toString()
             } else {
                 binding.microphoneButton.setImageResource(R.drawable.action_microphone)
+                binding.microphoneButton.contentDescription = getText(R.string.microphone_desc).toString()
             }
         }
 
@@ -182,10 +184,12 @@ class RoomActivity : AppCompatActivity() {
                 binding.speakerButton.setImageResource(R.drawable.action_speakerphone)
                 binding.speakerButton.setPadding(6)
                 binding.speakerButton.scaleType = ImageView.ScaleType.FIT_CENTER
+                binding.speakerButton.contentDescription = getText(R.string.speaker_desc).toString()
             } else {
                 binding.speakerButton.setImageResource(R.drawable.action_speakerphone_off)
                 binding.speakerButton.setPadding(0)
                 binding.speakerButton.scaleType = ImageView.ScaleType.CENTER
+                binding.speakerButton.contentDescription = getText(R.string.speaker_off_desc).toString()
             }
         }
 
@@ -194,8 +198,10 @@ class RoomActivity : AppCompatActivity() {
             showLocalVideo(enabled)
             if (enabled) {
                 binding.videoButton.setImageResource(R.drawable.action_video)
+                binding.videoButton.contentDescription = getText(R.string.video_desc).toString()
             } else {
                 binding.videoButton.setImageResource(R.drawable.action_video_off)
+                binding.videoButton.contentDescription = getText(R.string.video_off_desc).toString()
             }
         }
 
